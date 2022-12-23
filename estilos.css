@@ -1,0 +1,46 @@
+body{background-color: #f7f7f7;}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    font-family: sans-serif;
+    height: 100px;
+    width:100%
+}
+.logo{
+    width: 150px;
+    border-radius: 10%;
+}
+.fotoMia{
+   width: 25px;
+   border-radius: 50%;
+}
+.loggin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav>a{
+    margin-left: 15px;
+}
+nav{
+    margin-right: 500px;
+}
+form{
+    background-color: #f7f7f7;
+    padding: 5px;
+    border:1px solid #f7f7f7;
+    border-radius: 8px;
+    width: 400px;
+    }
+input{
+    font-size: 16px;
+    border-style: none;
+    background-color: #f7f7f7;
+    }
